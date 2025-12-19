@@ -13,7 +13,7 @@ import { isDesktop } from "@/lib/utils";
 export function AboutWrapper({}) {
   const [text, setText] = useState({
     main: "Featured Work",
-    para: `Building high-end, pixel-perfect websites for agencies and individuals while creating high quality rebuilds in my free time.`,
+    para: `Building high-end software for agencies and individuals while creating high quality rebuilds in my free time.`,
   });
   useEffect(() => {
     if (!isDesktop()) {

@@ -23,12 +23,15 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useState, useEffect } from "react";
 
 export default function Modal() {
-  const [mouseX, setMouseX] = useState(0);
+  const [mouseX, setMouseX] = useState(0);//do jaja je
+  const [mouseY, setMouseY] = useState(0);
+
 
   useEffect(() => {
     const handleMouseMove = (e) => {
       // Normalize mouse position to range -0.5 to 0.5
       setMouseX(e.clientX / window.innerWidth - 0.5);
+      setMouseY(e.clientY / window.innerHeight - 0.5);
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -51,9 +54,9 @@ export default function Modal() {
         {/* <ambientLight intensity={2} /> */}
         {/* <Suzi rotation={[-0.63, 0, 0]} scale={2} position={[0, -1.175, 0]} /> */}
         <Scene
-          position={[0, -1.2, 0]}
-          scale={1.8}
-          rotation={[0, 0 + mouseX * Math.PI, 0]}
+          position={[0, -70, -200]}
+          scale={1}
+          rotation={[0 + (mouseY / 4) * Math.PI, 0 + (mouseX / 3) * Math.PI, 0]}
         ></Scene>
         {/* <Cookie
           distance={100}

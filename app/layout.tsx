@@ -22,9 +22,9 @@ const helvetica = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Petar Vucetic • Developer",
+  title: "gifted3 • Bring your idea to life",
   description:
-    "Petar Vucetic is a developer who creates beautiful and pixel perfect websites with zero effort in reviews.",
+    "gifted3 team is a team of developer, creative engineers and AI enthusiasts who creates beautiful and functional projects with zero effort in reviews.",
 };
 
 export default function RootLayout({

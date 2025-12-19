@@ -67,7 +67,7 @@ export function Header({ color, className, mode = "hamburger" }: HeaderProps) {
             }}
           >
             <p className="mask logo__anim flex items-center justify-center font-semibold">
-              Petar
+              gifted3
             </p>
           </Magentic>
           <Magentic
