@@ -31,16 +31,14 @@ export function HeroButton({}) {
       className="email_section1 anime isolate z-20  rounded-full !text-[clamp(16px,_1vw_+_14px,_24px)] md:bg-[#272727]"
       onMouseEnter={() => rotateImageRef.current?.play()}
       onMouseLeave={() => rotateImageRef.current?.pause()}
-      href="https://gifted3.com"
-      target="_blank"
-      rel="noreferrer"
+      href="#"
       scrambleParams={[
         {
-          text: "Check out",
+          text: "Create your",
           chars: "-x",
         },
         {
-          text: "Latest Work",
+          text: "First World",
           chars: "-x",
         },
       ]}
@@ -49,9 +47,9 @@ export function HeroButton({}) {
         <div className="round hidden items-center justify-center md:flex">
           <p className="absolute left-[37%] whitespace-nowrap text-[21px]">
             <span>
-              <span className="scrambleText">Check out</span>
+              <span className="scrambleText">Create your</span>
               <br />
-              <span className="scrambleText">Latest Work</span>
+              <span className="scrambleText">First World</span>
             </span>
           </p>
         </div>

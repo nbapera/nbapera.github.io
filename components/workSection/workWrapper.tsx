@@ -26,7 +26,7 @@ export function WorkWrapper({}) {
             </svg>
           </div>
           <div className="center font-bold">
-            view all work<span className="yellow__it"> .</span>
+            create your world<span className="yellow__it"> .</span>
           </div>
           <div className="right">
             <svg

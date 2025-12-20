@@ -19,7 +19,7 @@ export function ContactSection({}) {
         href={links.contact}
         className="footer__heading anime cursor-pointer"
         scrambleParams={{
-          text: "Contact",
+          text: "Genesis",
         }}
         onMouseEnter={() => {
           bgImagesSharedRef.current?.restart(true);
@@ -29,11 +29,10 @@ export function ContactSection({}) {
         }}
       >
         <span className="shapka mask">
-          <span className="scrambleText inline-block text-left">Contact</span>
+          <span className="scrambleText inline-block text-left">Genesis</span>
           <span className="yellow__it">.</span>
         </span>
       </Magentic>
-      <BgImagesContainer bgImagesSharedRef={bgImagesSharedRef} />
       <Footer />
     </section>
   );

@@ -66,36 +66,7 @@ type InnerMarqueeProps = {
 export const InnerMarquee = ({ className }: InnerMarqueeProps) => {
   return (
     <div className={cn("slider-inner slider ", className)}>
-      <div className="img-wrapper">
-        <NextIcon />
-      </div>
-      <div className="img-wrapper">
-        <TailwindIcon />
-      </div>
-      <div className="img-wrapper">
-        <TypescriptIcon className="h-[90%]" />
-      </div>
-      <div className="img-wrapper">
-        <ReduxIcon />
-      </div>
-      <div className="img-wrapper">
-        <ReactIcon />
-      </div>
-      <div className="img-wrapper">
-        <NodejsIcon />
-      </div>
-      <div className="img-wrapper">
-        <FigmaIcon />
-      </div>
-      <div className="img-wrapper">
-        <GitIcon />
-      </div>
-      <div className="img-wrapper">
-        <Webflow />
-      </div>
-      <div className="img-wrapper">
-        <Framer />
-      </div>
+
     </div>
   );
 };
