@@ -31,7 +31,7 @@ export function HeroButton({}) {
       className="email_section1 anime isolate z-20  rounded-full !text-[clamp(16px,_1vw_+_14px,_24px)] md:bg-[#272727]"
       onMouseEnter={() => rotateImageRef.current?.play()}
       onMouseLeave={() => rotateImageRef.current?.pause()}
-      href="#"
+      href="https://id-preview--a9b8973d-4da6-4198-9fd6-557f0a86d821.lovable.app/"
       scrambleParams={[
         {
           text: "Create your",
